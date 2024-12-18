@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Running Boy</title>
+<style>
+   *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    img{
+        height: 100vh;
+        width: 100%;
+    }
+    div{
+        height: 250px;
+        width: 220px;
+        background-image: url(ram.gif);
+        background-size: cover;
+        margin-top: -50vh;
+        animation: move 5s linear infinite;
+    }
+    @keyframes move{
+        0%{transform: translate(0%);}
+        100%{transform: translate(500%);}
+    }
+</style>
+</head>
+<body>   
+    <img src="background.png">
+    <div></div>   
+</body>
+</html>
